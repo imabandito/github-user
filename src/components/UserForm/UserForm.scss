@@ -59,3 +59,9 @@
         }
     }
 }
+
+@media screen and (max-width:425px){
+    .user-form__input-block label{
+        font-size: 1.7rem;
+    }
+}
