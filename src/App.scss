@@ -1,0 +1,9 @@
+@import './scss/normalize';
+@import './scss/variables';
+@import './scss/mixins';
+@import './scss/globals';
+@import './components/RootLayout/RootLayout.scss';
+@import './components/UserInfo/UserInfo.scss';
+@import './components/UserForm/UserForm.scss';
+@import './components/SearchError/SearchError.scss';
+@import './pages/Home/Home.scss'

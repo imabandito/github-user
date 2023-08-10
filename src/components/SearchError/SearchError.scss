@@ -1,0 +1,7 @@
+.error{
+    @include flex-column-center;
+
+    h2{
+        color: $white;
+    }
+}

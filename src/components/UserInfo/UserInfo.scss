@@ -1,0 +1,35 @@
+.info{
+    margin-top: 40px;
+    @include flex-column-center;
+
+    &__avatar{
+        width: 100%;
+        max-width: 300px;
+    }    
+
+    &__name{
+        color: $white;
+        margin-bottom: 0px;
+    }
+
+    &__bio{
+        color: $white;
+    }
+
+    &__link{
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        background-color: $green;
+        color: $white;
+
+        &>span{
+            margin-right: 10px;
+        }
+
+        &:hover{
+            background-color: $green-dark;
+            transition: 0.2s;
+        }
+    }
+}
